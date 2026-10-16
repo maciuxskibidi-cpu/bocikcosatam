@@ -1,0 +1,16 @@
+{
+  "name": "discord-ai-builder",
+  "version": "1.1.0",
+  "description": "Zaawansowany bot Discord AI do automatycznego budowania i zarządzania serwerami",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3"
+  }
+}
